@@ -1,11 +1,329 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IT Polly</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
+
 <body>
-    
+
+    <!-- Nav Bar Start -->
+    <header class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Mouse">Mouse</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Keyboard">Keyboard</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Router">Router</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Nav Bar End -->
+
+        <!-- Carousel Start -->
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row d-flex align-items-center p-5">
+                        <div class="col-md-7">
+
+                        </div>
+                        <div class="col-md-5">
+                            <img src="images/banner-images/setup.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="carousel-item">
+                    <div class="row d-flex align-items-center p-5">
+                        <div class="col-md-7">
+
+                        </div>
+                        <div class="col-md-5">
+                            <img src="images/banner-images/chair.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row d-flex align-items-center p-5">
+                        <div class="col-md-7">
+
+                        </div>
+                        <div class="col-md-5">
+                            <img src="images/banner-images/gaming pc.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row d-flex align-items-center p-5">
+                        <div class="col-md-7">
+
+                        </div>
+                        <div class="col-md-5">
+                            <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- Carousel End -->
+
+    <!-- Categories Start -->
+    <main>
+        <section class="container overflow-hidden mt-5 categories">
+            <div class="row g-5 mt-3">
+                <div class="col col-md-4 col-sm-8">
+                    <div class="p-3 rounded bg-warning d-flex align-items-center justify-content-around">
+                        <h1 class="text-white">Keyboard</h1>
+                        <img src="images/categories/keyboard.png" alt="">
+                    </div>
+                </div>
+                <div class="col col-md-4 col-sm-8">
+                    <div class="p-3 rounded bg-success d-flex align-items-center justify-content-around">
+                        <h1 class="text-white">Mouse</h1>
+                        <img src="images/categories/mouse.png" alt="">
+                    </div>
+                </div>
+                <div class="col col-md-4 col-sm-8">
+                    <div class="p-3 rounded bg-primary d-flex align-items-center justify-content-around">
+                        <h1 class="text-white">Router</h1>
+                        <img src="images/categories/router.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Categories End -->
+
+        <!-- Keyboard Start  -->
+
+        <section id="shoes" class="container mt-5">
+            <h3 class="p-3 rounded bg-warning d-flex align-items-center justify-content-around">Keyboard</h3>
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+                <div class="col">
+                    <div class="card panda-card h-100 shadow">
+                        <img src="images/keyboard/keyboard1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Kyeboard 1</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat odio
+                                saepe ullam harum aut! Eius corporis architecto veritatis blanditiis cupiditate.</p>
+                        </div>
+                        <div class="card-footer panda-card-footer">
+                            <h5>$600</h5>
+                            <button class="btn btn-warning">Buy Now>> </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow panda-card">
+                        <img src="images/keyboard/keyboard2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Keyboard 2</h5>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa facilis
+                                veniam doloribus, totam quaerat ut ea dolorum illum rerum minima?</p>
+                        </div>
+                        <div class="card-footer panda-card-footer">
+                            <h5>$600</h5>
+                            <button class="btn btn-success">Buy Now>> </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow panda-card">
+                        <img src="images/keyboard/keyboard3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Keyboard 3</h5>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non, placeat
+                                tenetur. Deserunt aliquid ducimus quaerat voluptatibus voluptate eveniet molestiae
+                                consequuntur?</p>
+                        </div>
+                        <div class="card-footer panda-card-footer">
+                            <h5>$600</h5>
+                            <button class="btn btn-primary">Buy Now>> </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Keyboard End  -->
+
+        <!-- Mouse Start -->
+
+        <section id="shoes" class="container mt-5">
+            <h3 class="p-3 rounded bg-success d-flex align-items-center justify-content-around">Mouse</h3>
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+                <div class="col">
+                    <div class="card panda-card h-100 shadow">
+                        <img src="images/mouse/mouse1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Mouse 1</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat odio
+                                saepe ullam harum aut! Eius corporis architecto veritatis blanditiis cupiditate.</p>
+                            <h5>$600</h5>
+                        </div>
+                        <div class="card-footer panda-card-footer">
+                            <button class="btn btn-warning">Buy Now>> </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow panda-card">
+                        <img src="images/mouse/mouse2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Mouse 2</h5>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa facilis
+                                veniam doloribus, totam quaerat ut ea dolorum illum rerum minima?</p>
+                            <h5>$600</h5>
+                        </div>
+                        <div class="card-footer panda-card-footer">
+                            <button class="btn btn-success">Buy Now>> </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow panda-card">
+                        <img src="images/mouse/mouse3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Mouse 3</h5>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non, placeat
+                                tenetur. Deserunt aliquid ducimus quaerat voluptatibus voluptate eveniet molestiae
+                                consequuntur?</p>
+                            <h5>$600</h5>
+                        </div>
+                        <div class="card-footer panda-card-footer">
+                            <button class="btn btn-primary">Buy Now>> </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mouse End -->
+
+        <!-- Router Start -->
+
+        <section id="shoes" class="container mt-5">
+            <h3 class="p-3 rounded bg-primary d-flex align-items-center justify-content-around">Router</h3>
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+                <div class="col">
+                    <div class="card panda-card h-100 shadow">
+                        <img src="images/router/router1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Router 1</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat odio
+                                saepe ullam harum aut! Eius corporis architecto veritatis blanditiis cupiditate.</p>
+                        </div>
+                        <div class="card-footer panda-card-footer">
+                            <button class="btn btn-warning">Buy Now>> </button>
+                            <h5>$600</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow panda-card">
+                        <img src="images/router/router2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Router 2</h5>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa facilis
+                                veniam doloribus, totam quaerat ut ea dolorum illum rerum minima?</p>
+                        </div>
+                        <div class="card-footer panda-card-footer">
+                            <button class="btn btn-success">Buy Now>> </button>
+                            <h5>$600</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow panda-card">
+                        <img src="images/router/route3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Router 3</h5>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non, placeat
+                                tenetur. Deserunt aliquid ducimus quaerat voluptatibus voluptate eveniet molestiae
+                                consequuntur?</p>
+                        </div>
+                        <div class="card-footer panda-card-footer">
+                            <button class="btn btn-primary">Buy Now>> </button>
+                            <h5>$600</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Router End -->
+
+        <!-- Contact Start -->
+
+        <section class="container mt-5">
+            <h3 class="p-3 rounded bg-warning d-flex align-items-center justify-content-around">Contact with us</h3>
+            <form class="bg-light">
+                <div class="form-group mt-3">
+                  <label for="exampleInputName">First Name</label>
+                  <input type="name" class="form-control" id="exampleInputName" aria-describedby="nameHelp" placeholder="Enter first name">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputName">Last Name</label>
+                    <input type="name" class="form-control" id="exampleInputName" aria-describedby="nameHelp" placeholder="Enter last name">
+                  </div>               
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <button type="submit" class="btn btn-success">Submit</button>
+              </form>
+        </section>
+
+        <!-- Contact End -->
+    </main>
+    <!-- JavaScript Part -->
+    <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>
